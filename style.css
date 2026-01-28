@@ -18,6 +18,7 @@ left: -2px;
     border: 2px solid rgb(218, 17, 17);
     position: relative;
     
+    box-shadow: 1px 10px 20px;
 }
 
 body{
