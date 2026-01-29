@@ -143,3 +143,16 @@ a:hover{
     flex-direction: column;
     gap: 5px;
 }
+.botao-comprar{
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.botao-comprar:hover{
+    background-color: darkgreen;
+    transition: 0.3s;
+}
