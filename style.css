@@ -130,3 +130,11 @@ a:hover{
     color: rgb(120, 120, 120);
     margin-top: 5px;
 }
+.descricao{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100);
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: center;
+
+}
