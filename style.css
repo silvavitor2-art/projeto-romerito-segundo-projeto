@@ -77,6 +77,13 @@ a:hover{
     border: 1px solid gray;
     width: 250px;
     box-shadow: 1px 1px 3px lightgray;
+    background-image: url('lupa_img.png');
+    background-size: 25px; 
+    background-repeat: no-repeat;
+    background-position: 90% center; 
+    padding-left: 40px; 
+    height: 30px;
+ 
 
     
 }
