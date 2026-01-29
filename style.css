@@ -138,3 +138,8 @@ a:hover{
     text-align: center;
 
 }
+.texto{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
