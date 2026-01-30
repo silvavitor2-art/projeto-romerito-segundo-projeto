@@ -39,7 +39,7 @@
 
 .principal{ 
     width: 60%; 
-    height:3000px; 
+    height:1700px; 
     margin-left: auto;
     margin-right: auto; 
     border-style:groove;
@@ -51,7 +51,7 @@
       }
 .imagemcomeco{
     width: 95% ;
-    height: 10% ;
+    height: 300px ;
     margin-top: 200px;
     box-shadow: 5px 10px 20px ;
 margin: 10px;
