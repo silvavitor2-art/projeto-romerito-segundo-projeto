@@ -1,4 +1,4 @@
-/* login  a partir da linha 200 */
+/* login  a partir da linha 208 */
 
 
 * {
@@ -36,13 +36,13 @@
 
 
 .imagemlogo{
-    width: 200px;
+    width: 20%;
 }
 
 
 .principal{ 
     width: 60%; 
-    height:1700px; 
+    height:100%; 
     margin-left: auto;
     margin-right: auto; 
     border-style:groove;
@@ -50,15 +50,14 @@
     margin-top: 20px;
     box-shadow: 5px 10px 20px ;
  
- 
       }
 .imagemcomeco{
     width: 95% ;
     height: 300px ;
     margin-top: 200px;
     box-shadow: 5px 10px 20px ;
-margin: 10px;
-padding: 5px;
+    margin: 10px;
+    padding: 5px;
 }
 .imagemcomeco:hover{
     transition: 0.3s;
@@ -90,6 +89,12 @@ a:hover{
 
     
 }
+.info-loja {
+    margin-top: 6%;
+    text-align: center;
+    font-size: 20px;
+}
+
 .entrada:hover{
     box-shadow: 2px 2px 5px gray;
     transition: 0.3s;
@@ -156,13 +161,15 @@ a:hover{
 
 }
 .final{
-    background: #292424;
-    background: radial-gradient(circle, rgba(41, 36, 36, 1) 95%, rgba(227, 223, 216, 1) 100%, rgba(222, 36, 27, 1) 100%);
-    height: 300px;
-    margin-top: 10px;
+background:black;
+    height: 1%;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 0px ;
+    padding: 40px 60px;
+    gap: 40px;
+    background-image: url(https://img.freepik.com/fotos-premium/grelha-de-churrasco-churrasqueira-de-aco-vazia-com-faiscas-de-fogo-flamejante-e-fumaca-em-fundo-preto-cozinhando_157927-18733.jpg) ;
 }
 .loja{
     
@@ -172,24 +179,33 @@ a:hover{
     
 }
 .nos{
-    width: 300px;
-    text-align: center;
-    margin-right: 30px ;
+    max-width: 450px;
+    text-align: left;
 }
 .creditos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    padding: 20px;
-    gap: 10px;
+    max-width: 350px;
 }
 .titulo-creditos{
     font-size: 20px;
     font-weight: bold;
 }
+.loja, .contatos, .creditos p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ddd;
+}
+.final h3 {
+    color: #ff4d4d;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.contatos{
+    max-width: 230px;
+
+}
+
 
 
 /* parte do loginnnn */
@@ -203,16 +219,20 @@ a:hover{
 
 .login{
     font-family: Arial, sans-serif;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    width: 300px;
+    max-width: 400px;
+    width: 100%;
     border-radius: 5px;
+    border: 2px solid lightgray;
     margin: auto;
     display: flex;
     flex-direction: column;
- gap: 10px;
+    gap: 10px;
+    background: #a38181;
+    background: linear-gradient(0deg, rgba(163, 129, 129, 1) 0%, rgba(105, 105, 100, 1) 100%);
+    position: relative;
 }
 .principal_login{
- width: 60%; 
+    width: 60%; 
     height:700px; 
     margin-left: auto;
     margin-right: auto; 
@@ -220,9 +240,23 @@ a:hover{
     border: 2px solid rgb(0, 0, 0);
     margin-top: 20px;
     box-shadow: 5px 10px 20px ;
+   
 }
+
+
+/* aumentando o nome login apenas isto */
+
+.principal_login h2{
+    font-size: 50px;   
+    font-family:Verdana, Geneva, Tahoma, sans-serif ; 
+    color: white;
+}
+
+
 /* parte de lopgin dos labels e dos inpuis */
+
 .usuario{
+
     margin-bottom: 15px;
     padding: 10px;
     width: 20%;
@@ -235,26 +269,47 @@ a:hover{
 }
 .senha{
     margin-bottom: 15px;
-    padding: 10px;
-    width: 20%;
-    border: 1px solid #ccc;
+    padding: 20px;
+    width: 40%;
+    border-style: hidden;
+    border: 1px solid #4b1a1a;
     border-radius: 4px;
-   align-self: center;
+    
+    align-self: center;
   
 }
 .inputs1{
-    width: 50%;
+    width: 70%;
+    font-size: 20px;
+    height: 5px;    
+    
     align-self: center;
+    border: none;
+    outline: none;
+
+    border: 2px solid rgb(190, 42, 42);
+    border-radius: 40px ;
+    padding: 20px 45px 20px 20px ;
 }
 .inputs2{
-    width: 50%;
+    width: 70%;
+    font-size: 20px;
+    height: 5px;
+
     align-self: center;
+    border: none;
+    outline: none;
+
+    border: 2px solid rgb(190, 42, 42);
+    border-radius: 40px ;
+    padding: 20px 45px 20px 20px ;
 }
 
 
 .login-container{
     text-align: center;
     margin-top: 100px;
+    
  
 }
 .entrar{
@@ -275,4 +330,24 @@ a:hover{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* imagem testewe$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.cadeado{
+    position: absolute;
+    top: 151px;
+    right: 40px;
+    max-width: 50px;
+width: 100%;
+
+}
+/* imagem  de Â´pessoooaaa login$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.pessoa{
+    position: absolute;
+    top: 310px;
+    right: 40px;
+    max-width: 50px;
+    width: 100%;
+}
+
 
