@@ -48,8 +48,14 @@
 
 .cabeçalho{
     display: flex;
+    align-items: flex-start;
     gap: 40px;
     margin: 20px;
+}
+.info-cabeçalho{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .imagemlogo{
@@ -87,7 +93,7 @@ a:hover{
     padding: 5px;
     border-radius: 5px;
     border: 1px solid gray;
-    width: 250px;
+    width: 280px;
     box-shadow: 1px 1px 3px lightgray;
     background-image: url('./imagens/lupa_img.png');
     background-size: 25px; 
@@ -95,6 +101,7 @@ a:hover{
     background-position: 90% center; 
     padding-left: 40px; 
     height: 30px;
+    align-self: flex-start;
  
 
     
