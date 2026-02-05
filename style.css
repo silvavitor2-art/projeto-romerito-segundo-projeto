@@ -134,7 +134,7 @@ a:hover{
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     flex-direction: column;
-    
+     background-color: var(--card);
     }
 
 .espetinho-imagem{
@@ -286,6 +286,7 @@ a:hover{
     background: white;
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
     transition: 0.3s;
+    background-color: var(--login);
 }
 .titulo-login{
     margin-bottom: 20px;
@@ -359,6 +360,33 @@ a:hover{
 .entrar:hover{
     background-color: #45a049;
     border-radius: 2%;
+}
+/* ==================      TEMA CLARO/ESCURO    ================== */
+:root {
+    --fundo: #ffffff;
+    --text: #000000;
+    --card: #f5f5f5;
+    --login: #f5f5f5;
+}
+body {
+    background-color: var(--fundo);
+    color: var(--text);
+    transition: 0.3s;
+}
+:root:has(#cor_esc_cla:checked) {
+    --fundo: #121212;
+    --text: #ffffff;
+    --card: #1e1e1e;
+    --login: #1e1e1e;
+}
+.botao_tema{
+    background-color: #000000;
+    color: white;
+    width: 12%;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    
 }
 
 
